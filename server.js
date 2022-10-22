@@ -16,6 +16,8 @@ app.use(express.json());
 // Routes
 app.use('/api/users/', usersRoute);
 
+// views
+
 app.listen(PORT, IP_ADDRESS, (err) => {
     console.log(`connected at http://${IP_ADDRESS}:${PORT}/api/users`);
 })
